@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fMA7vhJpnbk=",
+  "dgSpecHash": "aOGr4To4fck=",
   "success": true,
   "projectFilePath": "C:\\Users\\david\\source\\repos\\PruebaTecnica20_06\\PruebaTecnica20_06\\PruebaTecnica20_06.csproj",
   "expectedPackageFiles": [
@@ -50,7 +50,8 @@
     "C:\\Users\\david\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512",
     "C:\\Users\\david\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
     "C:\\Users\\david\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
-    "C:\\Users\\david\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512"
+    "C:\\Users\\david\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512",
+    "C:\\Users\\david\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512"
   ],
   "logs": []
 }

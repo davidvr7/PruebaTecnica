@@ -1,10 +1,15 @@
-﻿namespace PruebaTecnica20_06.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace PruebaTecnica20_06.Models
 {
     public class Card
     {
         public int Id { get; set; }
         public string Number { get; set; }
+
+        [MaxLength(200)] 
         public string PIN { get; set; }
+
         public bool IsActive { get; set; }
         public bool IsCredit { get; set; }
         public decimal CreditLimit { get; set; }
