@@ -53,7 +53,7 @@ namespace PruebaTecnica20_06.Data
                 IsActive = true,
                 IsCredit = true,
                 CreditLimit = 2000,
-                WithdrawalLimit = 1000,
+                WithdrawalLimit = 3000,
                 AccountId = 1,
                 Account = Accounts[0]
             },
@@ -62,7 +62,7 @@ namespace PruebaTecnica20_06.Data
                 Id = 3,
                 Number = "9999-8888-7777-6666",
                 PIN = "4321",
-                IsActive = true,
+                IsActive = false,
                 IsCredit = false,
                 CreditLimit = 0,
                 WithdrawalLimit = 300,

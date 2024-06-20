@@ -211,13 +211,13 @@ namespace PruebaTecnica20_06.Controller
 
         private string EncriptarPin(string pin)
         {
-            // Generar una sal aleatoria
+            // Generar una salt aleatoria
             byte[] salt;
             new RNGCryptoServiceProvider().GetBytes(salt = new byte[16]);
 
             // Configurar el algoritmo de derivación de clave PBKDF2
             var pbkdf2 = new Rfc2898DeriveBytes(pin, salt, 10000, HashAlgorithmName.SHA256);
-            byte[] hash = pbkdf2.GetBytes(20); // Tamaño del hash SHA-256
+            byte[] hash = pbkdf2.GetBytes(20);  
 
             // Combinar la sal y el hash
             byte[] hashBytes = new byte[36];

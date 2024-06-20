@@ -15,13 +15,11 @@ namespace Tests
             var controller = new AccountController();
 
             var accountId = 999; // Cuenta no existente
-
-            // Act
+             
             var result = controller.ConsultarMovimientos(accountId) as NotFoundObjectResult;
-
-            // Assert
+             
             Xunit.Assert.NotNull(result);
-            Xunit.Assert.Equal("Cuenta no encontrada", result.Value);
+            Xunit.Assert.Equal("{ error = Cuenta no encontrada }", result.Value.ToString());
         }
     }
 }
